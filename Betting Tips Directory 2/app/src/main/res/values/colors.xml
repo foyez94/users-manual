@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#297ec2</color>
+    <color name="colorPrimaryDark">#0969B6</color>
+    <color name="colorAccent">#51b0ff</color>
+
+    <color name="colorBG">#E4E4E4</color>
+    <color name="colorBG2">#d2d2d2</color>
+    <color name="colorBG3">#F0F0F0</color>
+    <color name="colorText">#343432</color>
+    <color name="colorTextLight">#72726F</color>
+    <color name="colorTextLighter">#9a9a96</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorYellow">#ffee00</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorGreen">#00CA11</color>
+
+    <!-- Intro Splash Color start -->
+    <color name="bg_screen1">#51b0ff</color>
+    <color name="bg_screen2">#1cd1ba</color>
+    <color name="bg_screen3">#ff7594</color>
+    <color name="bg_screen4">#FF5722</color>
+
+    <color name="dark_screen1">#0080EC</color>
+    <color name="dark_screen2">#14A895</color>
+    <color name="dark_screen3">#f15377</color>
+    <color name="dark_screen4">#de3500</color>
+
+    <array name="dark_inactive">
+        <item>@color/dark_screen1</item>
+        <item>@color/dark_screen2</item>
+        <item>@color/dark_screen3</item>
+        <item>@color/dark_screen4</item>
+    </array>
+
+    <color name="light_screen1">#ADD8FF</color>
+    <color name="light_screen2">#8cf9eb</color>
+    <color name="light_screen3">#ffbecd</color>
+    <color name="light_screen4">#ffa78c</color>
+
+    <array name="light_active">
+        <item>@color/light_screen1</item>
+        <item>@color/light_screen2</item>
+        <item>@color/light_screen3</item>
+        <item>@color/light_screen4</item>
+    </array>
+    <!-- .Intro Splash Color End -->
+
+</resources>

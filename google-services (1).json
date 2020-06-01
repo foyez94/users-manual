@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "393253394848",
+    "firebase_url": "https://betting-tips-directory.firebaseio.com",
+    "project_id": "betting-tips-directory",
+    "storage_bucket": "betting-tips-directory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393253394848:android:133c303a162bbef188ecc5",
+        "android_client_info": {
+          "package_name": "com.gabnitesolutions.bettingtipsdirectory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393253394848-3jcvoukdn5tmoh74nqi95usfpoj3s2en.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gabnitesolutions.bettingtipsdirectory",
+            "certificate_hash": "3f19e5569a527220e8d17066aea1e0cfb50c5cc0"
+          }
+        },
+        {
+          "client_id": "393253394848-1jpredmstpneq74ebf3nqgetogo5rrjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-qSsDPhrUenCHPUlRT_n6_WJp-nHYk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393253394848-1jpredmstpneq74ebf3nqgetogo5rrjd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

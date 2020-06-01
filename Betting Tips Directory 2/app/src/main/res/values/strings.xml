@@ -1,0 +1,180 @@
+<resources>
+
+    <!-- Main String -->
+    <string name="app_name">Betting Tips Directory</string>
+    <string name="app_sub_name">Betting Tips Directory</string>
+    <string name="app_website">https://bettipsdirectory.zlayers.com/</string>
+    <string name="app_email">bettingtipsdirectory@zlayers.com</string>
+
+    <!-- Intro splash string -->
+    <string name="screen1_title">Betting Tips Directory</string>
+    <string name="screen1_desc">Welcome to Betting Tips Directory</string>
+    <string name="screen2_title">Various Betting Tips provider</string>
+    <string name="screen2_desc">Apps and Websites</string>
+    <string name="screen3_title">Unlimited Download</string>
+    <string name="screen3_desc">Download any app you want</string>
+    <string name="screen4_title">Search</string>
+    <string name="screen4_desc">You can search your favorite betting tips apps & websites</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">OK!</string>
+
+    <!-- Login/SignIn string -->
+    <string name="txt_login_username">Username</string>
+    <string name="txt_login_password">Password</string>
+    <string name="txt_register_referral">Referral ID</string>
+    <string name="txt_register_referral_help">If you have referral id, write here!</string>
+    <string name="txt_register_referral_not_exist">This referral id not found.</string>
+    <string name="txt_forgot_password">Forgot my password!</string>
+    <string name="txt_btn_login">Login</string>
+    <string name="txt_no_account">No user account?</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_login">User Login</string>
+    <string name="txt_btn_register">Register</string>
+    <string name="txt_register_firstname">Name</string>
+    <string name="txt_register_lastname">Family</string>
+    <string name="txt_register_email">Email</string>
+    <string name="txt_empty_fullname">Please enter name and family.</string>
+    <string name="txt_empty_mobile">Please enter your username.</string>
+    <string name="txt_empty_email">Please enter your email.</string>
+    <string name="txt_empty_password">Please enter you password.</string>
+    <string name="txt_fullname_length_error">Minimum 3 characters.</string>
+    <string name="txt_mobile_length_error">Minimum 5 characters.</string>
+    <string name="txt_email_length_error">Minimum 10 characters.</string>
+    <string name="txt_email_not_valid">Your email format is not correct \nExample:
+    YourName@Gmail.com</string>
+    <string name="txt_password_length_error">Minimum 8 characters.</string>
+    <string name="txt_register_success">Success Registration. Please Login!</string>
+    <string name="txt_mobile_is_exist">This username is exist!</string>
+    <string name="txt_email_is_exist">This email is exist!</string>
+    <string name="txt_success_login">You login successfully!</string>
+    <string name="txt_failed_login">Username or Password is incorrect</string>
+    <string name="txt_logout_successfully">Logout!</string>
+    <string name="txt_please_login_first">Please login to your account.</string>
+    <string name="txt_bookmark_login">Login</string>
+    <string name="txt_viewed">Viewed</string>
+
+    <!-- Navigation Menu -->
+    <string name="navigation_drawer_open">Open Menu</string>
+    <string name="navigation_drawer_close">Close Menu</string>
+    <string name="nav_header_title">Betting Tips App</string>
+    <string name="nav_header_subtitle">Betting Tips Directory</string>
+    <string name="nav_header_desc">Nav Description</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_category">Categories</string>
+    <string name="nav_bookmark">Bookmarks</string>
+    <string name="nav_about_app">About App</string>
+    <string name="nav_help">Guide</string>
+    <string name="nav_contact">Contact Us</string>
+    <string name="nav_terms">Terms</string>
+    <string name="nav_privacy_policy">Privacy Policy</string>
+    <string name="nav_share_app">Share</string>
+    <string name="nav_settings">Setting</string>
+    <string name="nav_txt_others">Account</string>
+    <string name="nav_login">User Login</string>
+    <string name="nav_register">Register New User</string>
+    <string name="nav_my_profile">My Profile</string>
+    <string name="nav_exit">Logout</string>
+
+    <!-- Option Menu -->
+    <string name="action_settings">Setting</string>
+
+    <!-- Option Menu -->
+    <string name="menu_search">Search</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="menu_contact_us">Contact Us</string>
+    <string name="menu_terms">Terms</string>
+    <string name="menu_settings">Setting</string>
+    <string name="menu_back">Back</string>
+
+    <!-- Common String -->
+    <string name="txt_yes">Yes</string>
+    <string name="txt_no">No</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_confirm_exit">Do you want to exit?</string>
+    <string name="txt_exit">Exit</string>
+    <string name="txt_loading_category">In Progress...</string>
+    <string name="txt_loading">In Progress...</string>
+    <string name="txt_error">Error !!!</string>
+    <string name="txt_no_internet">No Internet Connection!</string>
+    <string name="txt_retry">Try again</string>
+    <string name="txt_sub_category">sub category</string>
+    <string name="txt_no_result">Nothing Found!</string>
+    <string name="txt_no_more_result">Nothing More found!</string>
+    <string name="txt_items_list">Content List</string>
+    <string name="txt_show_content">Show</string>
+    <string name="txt_not_supported">Not Supported!</string>
+    <string name="txt_button_game">Download Now</string>
+    <string name="txt_button_download">Download</string>
+    <string name="txt_button_show">Show</string>
+
+    <string name="txt_featured_title">Featured</string>
+    <string name="txt_latest_title">Latest</string>
+    <string name="txt_special_title">Trending</string>
+    <string name="txt_view_title">Most Viewed</string>
+    <string name="txt_show_all">Show All</string>
+
+    <string name="txt_search_keyword">keywords...</string>
+    <string name="txt_btn_search">Search</string>
+    <string name="txt_please_enter_keyword">Please enter keywords!</string>
+    <string name="txt_keyword_too_short">Minimum 3 characters!</string>
+
+    <string name="txt_share">Hello, I would like to share this app with you:\n
+        https://play.google.com/store/apps/details?id=com.gabnitesolutions.bettingtipsdirectory</string>
+
+    <!-- About app information -->
+    <string name="about_app_name">App Name</string>
+    <string name="about_app_version">Version</string>
+    <string name="about_app_email">Email</string>
+    <string name="sub_about_app_email">bettingtipsdirectory.@zlayers.com</string>
+    <string name="about_app_copyright">Copyright</string>
+    <string name="about_app_rate">Rank</string>
+    <string name="about_app_more">More</string>
+    <string name="about_us">About</string>
+    <string name="sub_about_us">About Us</string>
+    <string name="about_app_terms">Terms</string>
+    <string name="sub_about_app_terms">Terms of service</string>
+    <string name="about_app_privacy_policy">Privacy Policy</string>
+    <string name="sub_about_app_privacy_policy">Privacy Policy</string>
+    <string name="sub_about_app_version">Version:</string>
+    <string name="about_app_website">Website</string>
+    <string name="sub_about_app_website">www.bettingtipsdirectory.zlayers.com</string>
+    <string name="sub_about_app_copyright">All Rights Reserved.
+    &#169; 2019
+    </string>
+    <string name="sub_about_app">Welcome to betting tips directory</string>
+    <string name="about_app_developer">Design and Develop</string>
+    <string name="sub_about_app_developer">Gabnite Solutions</string>
+    <string name="about_app_help">Guide</string>
+    <string name="sub_about_app_help">How to use</string>
+    <string name="title_activity_one_content">Show one content</string>
+    <string name="title_activity_login">User Login</string>
+    <string name="title_activity_register">Register</string>
+
+    <string name="txt_get_update">Download new version</string>
+    <string name="txt_check_update_title">Update</string>
+    <string name="txt_check_update_msg">New update is available. Please update!</string>
+    <string name="txt_later">Later</string>
+    <string name="txt_update_url">https://play.google.com/store/apps/details?id=com.gabnitesolutions.bettingtipsdirectory</string>
+
+    <string name="txt_maintenance_title">Maintenance Mode</string>
+
+    <string name="txt_my_profile">My Profile</string>
+    <string name="txt_credit">Credit Balance</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_currency">$</string>
+    <string name="txt_profile_role">User Role</string>
+    <string name="txt_profile_web_login">To Add New File or Update your profile information, please login to your \"Web Panel\", with your username and password.</string>
+    <string name="txt_profile_web_login_btn">Login To Web Panel</string>
+    <string name="txt_user_profile_information_not_found">User info not found. Please try again.</string>
+
+    <!--AdMob
+    sample App ID: ca-app-pub-8787069424523857~6399264267
+    sample Banner Unit ID: ca-app-pub-8787069424523857/5969881244
+    sample Interstitial Unit ID: ca-app-pub-8787069424523857/9361018265
+    -->
+    <string name="config_admob_app_id">ca-app-pub-8787069424523857~6399264267</string>
+    <string name="config_admob_banner_unit_id">ca-app-pub-8787069424523857/5969881244</string>
+    <string name="config_admob_interstitial_unit_id">ca-app-pub-8787069424523857/9361018265</string>
+
+</resources>

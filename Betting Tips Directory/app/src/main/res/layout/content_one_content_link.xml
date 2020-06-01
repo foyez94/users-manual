@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBG"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gabnitesolutions.bettingtipsdirectory.activities.OneContentLinkActivity"
+    tools:showIn="@layout/activity_one_content_link">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_one_content_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:paddingBottom="3dp"
+            android:text="Content Title"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.971"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="4dp"
+                android:alpha="0.6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/small_category" />
+
+            <TextView
+                android:id="@+id/tv_one_content_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:text="category"
+                android:textColor="@color/colorTextLight"
+                android:textSize="@dimen/txt_medium"
+                app:layout_constraintStart_toEndOf="@+id/imageView4"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/iv_date"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="4dp"
+                android:alpha="0.6"
+                app:layout_constraintStart_toEndOf="@+id/tv_one_content_category"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/small_date" />
+
+            <TextView
+                android:id="@+id/tv_one_content_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="3dp"
+                android:text="1 week ago"
+                android:textColor="@color/colorTextLight"
+                android:textSize="@dimen/txt_medium"
+                app:layout_constraintStart_toEndOf="@+id/iv_date"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/iv_viewed"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="4dp"
+                android:alpha="0.6"
+                app:layout_constraintStart_toEndOf="@+id/tv_one_content_date"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/small_viewed" />
+
+            <TextView
+                android:id="@+id/tv_one_content_viewed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="3dp"
+                android:text="854 views"
+                android:textSize="@dimen/txt_medium"
+                app:layout_constraintStart_toEndOf="@+id/iv_viewed"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <!--<TextView
+                android:id="@+id/space2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:visibility="visible" />-->
+
+            <!--<TextView
+                android:id="@+id/space"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:visibility="visible" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/btn_show_content"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/colorGreen"
+                android:paddingBottom="5dp"
+                android:text="@string/txt_show_content"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/txt_xxlarge"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_ads"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:visibility="gone"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="@string/config_admob_banner_unit_id"></com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorWhite"
+            android:minHeight="150dp"
+            android:orientation="vertical">
+
+            <WebView
+                android:id="@+id/wv_one_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="150dp"
+                android:scrollbars="none"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"></WebView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

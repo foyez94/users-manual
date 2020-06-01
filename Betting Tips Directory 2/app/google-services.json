@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "644799597743",
+    "firebase_url": "https://download-project-e059c.firebaseio.com",
+    "project_id": "download-project-e059c",
+    "storage_bucket": "download-project-e059c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644799597743:android:13338751a2e6b6a0",
+        "android_client_info": {
+          "package_name": "com.inw24.download"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644799597743-vf3jiitu6llhh11ceslcg02iubl93m07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9bFJdrqBOuAaOQQvlhJVKbpEICspjhFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644799597743-vf3jiitu6llhh11ceslcg02iubl93m07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
